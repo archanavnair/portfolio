@@ -4,6 +4,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 
+
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -27,14 +28,14 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div  className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-v-80">Dynamic Web Magic with Next.js</h2>
+          {/* <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-v-80">Dynamic Web Magic with Next.js</h2> */}
 
           <TextGenerateEffect 
-            className="text-center text-[40p] md:text-5xl lg:text6xl"
-            words="Transforming Concepts into Seamless User Experiences"
+            className="text-center text-[40p] md:text-5xl lg:text-6xl uppercase"
+            words="Archana Vijayan Nair"
           />
-          <p className="text-center md:tracking-wider mb-4 text-small md:text-lg g;text-2xl">
-            Hi, I&apos;m Archana, a Front-End Developer based in Canada.
+          <p className="text-center font-bold md:tracking-wider mb-4 text-small md:text-lg lg:text-2xl uppercase">
+            Programmer . Front End Developer
           </p>
 
           <a href="#about">
