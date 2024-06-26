@@ -17,12 +17,12 @@ const Footer = () => {
 
       <div className='flex flex-col items-center'>
         <h1 className='heading lg:max-w-[45vw]'>
-          Ready to take <span className='text-purple'>your</span> digital presence to the next level?
+          Let's make a  <span className='text-purple'>difference</span> in the digital world together
         </h1>
-        <p className='text-white-200 md:mt-10 my-5 text-center'>Rach out to me today and let's diiscuss how I can help you achieve your goals.</p>
+        <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me to discuss further.</p>
         <a href='mailto:archanavnair90@gmail.com'>
           <MagicButton 
-            title="LLet's get in touch"
+            title="Let's get in touch"
             icon={<FaLocationArrow />}
             position='right'
           />
