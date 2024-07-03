@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className='flex flex-col items-center'>
         <h1 className='heading lg:max-w-[45vw]'>
-          Let's make a  <span className='text-purple'>difference</span> in the digital world together
+          Let&apos;s make a  <span className='text-purple'>difference</span> in the digital world together
         </h1>
         <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me to discuss further.</p>
         <a href='mailto:archanavnair90@gmail.com'>

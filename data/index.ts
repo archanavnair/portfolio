@@ -8,24 +8,24 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    title: "About Me ",
+    description: "I'm a self motivated and creative Front-end eveloper with over 7 years of hands-on experience in creating dynamic and responsive web applications. I've strong expertise in Angular, TypeScript and JavaScript, complemented by strong proficiency in HTML, CSS, RxJS, NgRx and Redux. Skilled in Java, Bootstrap, jQuery, MySQL, React JS and Python. With strong problem solving skills and abilities to turn complex requirements into user-friendlly interfaces, I am eager to contribute to a collaborative team environment and deliver high-quality solutions.  ",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[20vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
   },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
+  // {
+  //   id: 2,
+  //   title: "I'm very flexible with time zone communications",
+  //   description: "",
+  //   className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+  //   imgClassName: "",
+  //   titleClassName: "justify-start",
+  //   img: "",
+  //   spareImg: "",
+  // },
   {
     id: 3,
     title: "My Tech stack",
@@ -36,16 +36,16 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Tech enthusiast with a passion for development.",
+  //   description: "",
+  //   className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+  //   imgClassName: "",
+  //   titleClassName: "justify-start",
+  //   img: "/grid.svg",
+  //   spareImg: "/b4.svg",
+  // },
 
   {
     id: 5,
@@ -94,14 +94,14 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
     link: "https://archies-fit.netlify.app/",
   },
-  {
-    id: 4,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/",
-  },
+  // {
+  //   id: 4,
+  //   title: "AI Image SaaS - Canva Application",
+  //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+  //   img: "/p3.svg",
+  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+  //   link: "https://github.com/",
+  // },
   
 ];
 
@@ -206,3 +206,6 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/archanavnair10"
   },
 ];
+
+export const skills = ['Angular', 'TypeScipt','JavaScript','HTML5', 'CSS', 'Bootstrap', 'Tailwind CSS', 'Material UI','Aceternity UI', 'Three.js', 'Framer Motion', 'Java', 'React JS', 'Python','MySQL'];
+
