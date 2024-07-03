@@ -1,5 +1,4 @@
 import React from 'react'
-import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 import { WobbleCard } from './ui/WobbleCard'
 import { workExperience } from '@/data'
 import { Button } from './ui/MovingBorders'
